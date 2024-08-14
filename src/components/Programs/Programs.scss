@@ -1,0 +1,24 @@
+.programs {
+    font-family: 'Comfortaa', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        &_active {
+            color: #64d370;
+        }
+    }
+
+    &__text {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
